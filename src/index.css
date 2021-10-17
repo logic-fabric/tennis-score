@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: stretch;
 
-  max-width: 500px;
+  max-width: 48rem;
   min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
@@ -25,58 +25,52 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: #225;
+  font-size: 2.5rem;
+}
+
 p {
   margin: 0;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-}
-
-.buttons-row {
+.btn-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.button {
-  width: 170px;
-  margin: 0.5rem;
-  padding: 0.8rem 1rem;
+.btn {
+  width: 20rem;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
 
   color: white;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 1;
 
-  background: #232536;
+  background: midnightblue;
   cursor: pointer;
 }
 
-.button:hover {
-  background: #2c2f44;
+.btn:hover {
+  background: darkslateblue;
 }
 
-.button:active {
-  background: #1e212e;
-}
-
-.display {
-  margin: 0 0 1rem 0;
+.display-score {
+  margin: 2rem 0;
   padding: 1rem;
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
 
   color: white;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
 
-  background-color: #2759f5;
+  background-color: chocolate;
 }
 
 .player-score {
@@ -85,7 +79,7 @@ p {
 
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
 
   color: white;
   font-size: 1.4rem;
@@ -93,20 +87,4 @@ p {
   line-height: 1.5;
 
   background-color: #193ba1;
-}
-
-.player-games {
-  display: flex;
-  justify-content: space-between;
-
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.5;
-
-  background-color: #ae2b2b;
 }

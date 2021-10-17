@@ -26,7 +26,7 @@ export function scoreReducer(state = initialState, action) {
         return state;
       }
 
-      if (!state.palying) {
+      if (!state.playing) {
         return state;
       }
 
