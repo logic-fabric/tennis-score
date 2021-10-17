@@ -1,6 +1,6 @@
 html {
-  font-size: 16px;
   font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -12,15 +12,17 @@ body {
 }
 
 #root {
-  padding: 2rem;
-  text-align: center;
-  flex-direction: column;
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  align-items: stretch;
+
   max-width: 500px;
+  min-height: 100vh;
   margin: 0 auto;
+  padding: 2rem;
+
+  text-align: center;
 }
 
 p {
@@ -28,9 +30,9 @@ p {
 }
 
 .buttons {
-  align-self: center;
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .buttons-row {
@@ -40,60 +42,71 @@ p {
 }
 
 .button {
-  font-family: "Ubuntu", sans-serif;
-  margin: 0.5rem;
-  line-height: 1;
-  border: none;
-  padding: 0.8rem 1rem;
-  font-size: 1rem;
-  background: #232536;
-  border-radius: 0.3rem;
-  color: white;
-  font-weight: 300;
   width: 170px;
+  margin: 0.5rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+
+  background: #232536;
   cursor: pointer;
 }
+
 .button:hover {
   background: #2c2f44;
 }
+
 .button:active {
   background: #1e212e;
 }
 
 .display {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border-radius: 0.3rem;
+
+  color: white;
   font-size: 2rem;
   font-weight: 700;
-  padding: 1rem;
-  background-color: #2759f5;
-  color: white;
-  border-radius: 0.3rem;
   line-height: 1.5;
-  margin: 0;
-  margin-bottom: 1rem;
+
+  background-color: #2759f5;
 }
 
 .player-score {
-  font-size: 1.4rem;
-  font-weight: 400;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
-  background-color: #193ba1;
-  color: white;
-  border-radius: 0.3rem;
-  line-height: 1.5;
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background-color: #193ba1;
 }
 
 .player-games {
-  font-size: 1.4rem;
-  font-weight: 400;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
-  background-color: #ae2b2b;
-  color: white;
-  border-radius: 0.3rem;
-  line-height: 1.5;
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background-color: #ae2b2b;
 }
